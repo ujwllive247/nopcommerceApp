@@ -1,0 +1,30 @@
+# created by virtualenv automatically
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Logs and reports
+*.log
+Logs/
+Reports/
+Screenshots/
+
+# Environment variables and config
+.env
+*.env
+
+# PyCharm project settings
+.idea/
+
+# Test data (optional: ignore if it's sensitive or auto-generated)
+TestData/
+
+# OS files
+.DS_Store
+Thumbs.db
+
