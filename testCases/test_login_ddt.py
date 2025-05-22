@@ -9,7 +9,7 @@ from utilities.XLUtiles import *
 
 class Test_002_DDT_Login:
     baseURL = ReadConfig.getApplicationURL()
-    path = "/home/ethan/PycharmProjects/nopcommerceApp/TestData/LoginTest.xlsx"
+    path = "/home/ethan/Desktop/nopcommerceApp/TestData/LoginTest.xlsx"
 
     logger = LogGen.loggen()
 

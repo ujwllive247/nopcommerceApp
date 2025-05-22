@@ -26,7 +26,7 @@ class Test_001_Login:
             assert True
             self.driver.close()
         else:
-            self.driver.save_screenshot("/home/ethan/PycharmProjects/nopcommerceApp/Screenshots/test_home_pagetitle.png")
+            self.driver.save_screenshot("/home/ethan/Desktop/nopcommerceApp/Screenshots")
             self.driver.close()
             self.logger.error("*********** Home page title test is passed ***********")
 
@@ -50,7 +50,7 @@ class Test_001_Login:
             self.logger.info("*********** Login test is passed ***********")
             self.driver.close()
         else:
-            self.driver.save_screenshot("/home/ethan/PycharmProjects/nopcommerceApp/Screenshots/test_Login.png")
+            self.driver.save_screenshot("/home/ethan/Desktop/nopcommerceApp/Screenshots")
             self.driver.close()
             self.logger.error("*********** Login test is Fail ***********")
             assert False

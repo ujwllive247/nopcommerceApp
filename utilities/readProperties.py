@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read("/home/ethan/PycharmProjects/nopcommerceApp/Configurations/config.ini")
+config.read("/home/ethan/Desktop/nopcommerceApp/Configurations/config.ini")
 
 
 
